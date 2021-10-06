@@ -1,0 +1,44 @@
+header,.link1{
+  background-color: black;
+  color:  white;
+  height: 40px;
+  text-align: unset;
+}
+footer,.link2{
+  background: black;
+  color: white;
+  height: 60px;
+}
+.clipped{overflow: hidden;}
+.Promotion{
+  height: 100px;
+  margin: 10px;
+  width: 100px;
+  background : url('promotion.jpg')
+}
+.logo{
+  height: 50px;
+align-items: flex-start;
+}
+     .titre{
+         text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 1.5em;
+     }
+     .container { 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 780px;
+        height: 507px;
+        align-content: space-between;
+       background-color: rgb(220,220,220);
+       float: right;
+     }
+
+@media screen and(max-width:768px){
+.container{
+  visibility: hidden;
+}
+}
+     
